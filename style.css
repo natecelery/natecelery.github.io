@@ -1,0 +1,29 @@
+*{
+    background-color: aliceblue;
+}
+
+.website{
+    display: flex;
+    padding: 10px;
+    align-items: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.pwebsite-img{
+    height: fit-content;
+    width: fit-content;
+}
+
+.pwebsite-img img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 20px;
+    border-color: rosybrown;
+}
+
+.pwebsite-details {
+    padding: 20px;
+    background-color: crimson;
+    color: darkblue;
+}
